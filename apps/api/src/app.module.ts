@@ -5,12 +5,12 @@ import { ServeStaticModule } from '@nestjs/serve-static';
 import { join } from 'path';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { User } from './modules/users/user.entity';
-import { Sight } from './modules/sights/sight.entity';
-import { Review } from './modules/reviews/review.entity';
-import { Photo } from './modules/photos/photo.entity';
-import { Event } from './modules/events/event.entity';
-import { Guide } from './modules/guides/guide.entity';
+import { User } from './models/users/user.entity';
+import { Sight } from './models/sights/sight.entity';
+import { Review } from './models/reviews/review.entity';
+import { Photo } from './models/photos/photo.entity';
+import { Event } from './models/events/event.entity';
+import { Guide } from './models/guides/guide.entity';
 import { UsersModule } from './users/users.module';
 
 @Module({

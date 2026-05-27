@@ -1,7 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { UsersController } from './users.controller';
 import { UsersService } from './users.service';
-import { User } from 'src/modules/users/user.entity';
+import { User } from 'src/models/users/user.entity';
 
 const mockUser: Partial<User> = {
   id: 'uuid-1',
